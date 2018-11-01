@@ -1,0 +1,23 @@
+{
+  "name": "bitcoin-branching-transaction-builder",
+  "version": "0.1.0",
+  "description": "Creates and spends bitcoin transactions requiring multiple sets of conditions.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bitcoinjs-lib": "1.2.0",
+    "bigi": "^1.1.0"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/edmundedgar/bitcoin-branching-transaction-builder.git"
+  },
+  "scripts": {
+      "test": "mocha"
+  },
+  "keywords": [ "bitcoin", "browser", "client", "library" ],
+  "author": "Edmund Edgar",
+  "license": "MIT"
+}
